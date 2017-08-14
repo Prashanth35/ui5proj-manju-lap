@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Zsplit_app/WebContent/zsplit_app/spitapp.view.xml&apos; to &apos;masterpage.xml&apos;" description="Rename resource &apos;spitapp.view.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/zsplit_app/spitapp.view.xml" name="masterpage.xml" stamp="1500543098031" updateReferences="true"/>
+</session>

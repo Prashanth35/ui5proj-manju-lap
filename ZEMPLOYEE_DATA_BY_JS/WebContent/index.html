@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body id="idBody">
+
+<img src="images/logo.png" alt="S-MAX TECHNOLOGIES">
+<h1> EMPLOYEE Registration form </h1>
+<hr>
+
+<!-- <form action="page/masterPage.html" method="post">
+<table border="0">
+<tr>
+<td><label> Employee Name: </label></td>
+<td><input type="text" name="eName"></td>
+</tr>
+
+<tr>
+<td>
+<label>Department</label></td>
+ <input type="text" name="e-Dept">
+<td><select name="Department">
+<option value="1" selected>Select your Department</option>
+<option value="2">SAP</option>
+<option value="3" >Fiori</option>
+<option value="4">Java</option>
+</select></td>
+</tr>
+
+<tr>
+<td>
+<label> Role</label></td>
+<td>
+<select name="Role">
+<option value="1" selected>Select your Role</option>
+<option value="2">Sales Executive</option>
+<option value="3" >Management</option>
+<option value="4">Technical</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <label>Personal E-mail</label> </td>
+<td> <input type="text" name="eMail"> </td>
+</tr>
+<tr>
+<td><label> PAN No</label></td>
+<td><input type="text" name="ePan"></td>
+</tr>
+<tr>
+<td>
+<label> Country </label></td>
+<td>
+<select name="Country">
+<option value="1" selected>Select your Country</option>
+<option value="2">India</option>
+<option value="3" >England</option>
+<option value="4">German</option>
+<option value="4">Italy</option>
+<option value="4">Paris</option>
+</select></td>
+</tr>
+
+<tr>
+<td><label> ZIP Code</label></td>
+<td><input type="number" name="eZip"></td>
+</tr>
+
+<tr>
+<td><label>Select Gender </label></td>
+<td><input type="radio" name="eGender"> Male</td>
+<td><input type="radio" name="eGender"> Female</td>
+<td><input type="radio" name="eGender"> Other</td> 
+</tr>
+<tr>
+<td><button> Register </button>
+
+</td>
+</table>
+
+</form>
+ <a href="page/masterPage.html"> GO Here</a>
+ 
+-->
+
+ 
+ <script>
+ 
+ var div=document.createElement("div");
+ var body=document.getElementById("idBody");
+ body.appendChild(div);
+
+ var label1=document.createElement("label");
+ label1.innerText="Employee Name";
+ div.appendChild(label1);
+
+ 
+ var input=document.createElement("input");
+ input.setAttribute("value", "Manjunath");
+ div.appendChild(input);
+ 
+ var nline2=document.createElement("br");
+ div.appendChild(nline2);
+ 
+ var label2=document.createElement("label");
+ label2.innerText="Department";
+ div.appendChild(label2);
+
+ 
+ var select1=document.createElement("select");
+ div.appendChild(select1);
+ 
+ var option1=document.createElement("option");
+ option1.setAttribute("value", "S");
+ option1.innerText="SAP";
+ select1.appendChild(option1);
+
+ var option2=document.createElement("option");
+ option2.setAttribute("value", "A");
+ option2.innerText="ABAP";
+ select1.appendChild(option2);
+
+ var option3=document.createElement("option");
+ option3.setAttribute("value", "J");
+ option3.innerText="JAVA";
+ select1.appendChild(option3);
+ 
+ var nline3=document.createElement("br");
+ div.appendChild(nline3);
+
+ var label3=document.createElement("label");
+ label3.innerText="Role:";
+ div.appendChild(label3);
+ 
+ var select=document.createElement("select");
+ div.appendChild(select);
+ 
+ var rOption1=document.createElement("option");
+ rOption1.setAttribute("value", "M");
+ rOption1.innerText="Management";
+ select.appendChild(rOption1);
+
+ var rOption2=document.createElement("option");
+ rOption2.setAttribute("value", "T");
+ rOption2.innerText="Technician";
+ select.appendChild(rOption2);
+
+ var rOption3=document.createElement("option");
+ rOption3.setAttribute("value", "E");
+ rOption3.innerText="Employee";
+ select.appendChild(rOption3);
+ 
+ 
+ var nline4=document.createElement("br");
+ div.appendChild(nline4);
+ 
+ var label4=document.createElement("label");
+ label4.innerText="Employee E-Mail";
+ div.appendChild(label4);
+
+ 
+ var inputEmail=document.createElement("input");
+ inputEmail.setAttribute("value", "hsmanju0@gmail.com");
+ div.appendChild(inputEmail);
+ 
+ var nline5=document.createElement("br");
+ div.appendChild(nline5);
+
+ var label5=document.createElement("label");
+ label5.innerText="Employee PAN no:";
+ div.appendChild(label5);
+
+ 
+ var inputPan=document.createElement("input");
+ inputPan.setAttribute("value", "123ABC456");
+ div.appendChild(inputPan);
+ 
+ var nline6=document.createElement("br");
+ div.appendChild(nline6);
+ 
+ var label6=document.createElement("label");
+ label6.innerText="Select Country:";
+ div.appendChild(label6);
+ 
+ var select=document.createElement("select");
+ div.appendChild(select);
+ 
+ var countryOption1=document.createElement("option");
+ countryOption1.setAttribute("value", "I");
+ countryOption1.innerText="India";
+ select.appendChild(countryOption1);
+
+ var countryOption2=document.createElement("option");
+ countryOption2.setAttribute("value", "N");
+ countryOption2.innerText="Nepal";
+ select.appendChild(countryOption2);
+
+ var countryOption3=document.createElement("option");
+ countryOption3.setAttribute("value", "S");
+ countryOption3.innerText="Srilanka";
+ select.appendChild(countryOption3);
+ 
+ var nline7=document.createElement("br");
+ div.appendChild(nline7);
+ 
+ var label6=document.createElement("label");
+ label6.innerText="PIN Code:";
+ div.appendChild(label6);
+
+ 
+ var inputPin=document.createElement("input");
+ inputPin.setAttribute("value", "583226");
+ inputPin.setAttribute("type", "number");
+ div.appendChild(inputPin);
+ 
+ var nline8=document.createElement("br");
+ div.appendChild(nline8);
+ 
+ var label7=document.createElement("label");
+ label7.innerText="Select Gender:";
+ div.appendChild(label7);
+ 
+ var genderbtnMale=document.createElement("input");
+ genderbtnMale.setAttribute("type" , "radio");
+ genderbtnMale.setAttribute("checked" , true);
+ div.appendChild(genderbtnMale);
+ var label8=document.createElement("label");
+ label8.innerText="Male";
+ div.appendChild(label8);
+
+ var genderbtnFemale=document.createElement("input");
+ genderbtnFemale.setAttribute("type" , "radio");
+ div.appendChild(genderbtnFemale);
+ var label9=document.createElement("label");
+ label9.innerText="Female";
+ div.appendChild(label9);
+ 
+ var nline8=document.createElement("br");
+ div.appendChild(nline8);
+ 
+ var submitBtn=document.createElement("input");
+ submitBtn.setAttribute("type" , "submit");
+ div.appendChild(submitBtn);
+ 
+ 
+ var div2=document.createElement("div");
+ div2.setAttribute("id", "localStoredData");
+ var body=document.getElementById("idBody");
+ body.appendChild(div2);
+ 
+ window.localStorage.setItem("Employee Name", input.value);
+ 
+ 
+ 
+ </script>
+ 
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+		controllerName="z04072017_cerousel.xml_view_cerousel" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+				<Carousel>
+					<pages>
+						
+							<Image src="images/01.png" alt="Example picture of speakers"/>
+							<Image src="images/02.png" alt="Example picture of speakers"/>
+							<Image src="images/03.png" alt="Example picture of speakers"/>
+						
+					</pages>
+				</Carousel>
+				
+		</content>
+	</Page>
+</core:View>

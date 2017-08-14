@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="p-project1.new-elemensts" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="NEW ELEMENTS">
+		<content>
+		<TEXT text="New Semantic/Structural Elements
+Tag	Description
+<footer>	Defines a footer for a document or section
+<header>	Defines a header for a document or section
+<main>	Defines the main content of a document
+<mark>	Defines marked/highlighted text
+		"/>
+	
+		</content>
+	</Page>
+</core:View>

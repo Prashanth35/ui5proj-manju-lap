@@ -1,0 +1,8 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zemp_reg.LinkPage" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Linkpage">
+		<content>
+			<!-- <Text text="Hi this is Lik Page"/> -->
+			<Button text="Back  to Previous page" press="backToPrevious"/>
+		</content>
+</core:View>

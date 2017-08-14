@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z06072017splitappcontainer.ViewpPage1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<SplitApp>
+		<masterPages>		
+			<mvc:XMLView viewName="z06072017splitappcontainer.Master1"/>			
+		</masterPages>
+		
+	  	<detailPage>
+			<mvc:XMLView viewName="z06072017splitappcontainer.OtherPage"/>
+			<mvc:XMLView viewName="z06072017splitappcontainer.RegistrationPage"/>
+			<mvc:XMLView viewName="z06072017splitappcontainer.ContactDetails"/>
+		</detailPage>	 	
+	</SplitApp>
+</core:View>

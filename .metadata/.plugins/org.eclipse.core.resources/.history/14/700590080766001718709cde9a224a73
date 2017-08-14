@@ -1,0 +1,10 @@
+{
+	"employeeCollection" : 
+	[
+	 {
+	  "name" : "Manjunath",
+	  "role" : Trainee",
+	  "dept" : "SAP"
+	 }
+	]
+}

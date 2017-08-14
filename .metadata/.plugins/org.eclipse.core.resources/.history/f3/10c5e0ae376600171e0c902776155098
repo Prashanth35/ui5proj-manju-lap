@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:lout="sap.ui.layout.form"
+		controllerName="zpenreg.Registration" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<lout:SimpleForm>
+				<Title  text="Registration form"/>
+					
+				
+				<lout:content>
+					<Label text="Name"/>
+					<Input type="text" fieldset="Enter your Name here"/>
+					<Label text="Mobile Number"/>
+					<Input fieldset="Enter Your Mobile Number here" type="number" range="9999999999" />
+					<Label text="E-Mail ID:"/>
+					<Input type="text" fieldset="Enter your Valid E-Mail ID here"/>
+					<Label text="Date Of Birth"/>
+					<Input type="date" filedset="DOB here"/> 
+					<Label type="Something"/>
+				</lout:content>
+			</lout:SimpleForm>
+		</content>
+	</Page>
+</core:View>

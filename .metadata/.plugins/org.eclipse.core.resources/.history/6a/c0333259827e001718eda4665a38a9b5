@@ -1,0 +1,12 @@
+{
+    "payments" : [  
+                   
+             
+                { "month" : "jan","amount" : "1200","status" : "paid" ,"date" : "01/01/2013", "country" : "india"},
+                { "month" : "feb","amount" : "1500","status" : "paid","date" : "01/01/2013", "country" : "india"  },
+                { "month" : "march","amount" : "1600","status" : "paid","date" : "01/01/2013", "country" : "india"  }
+                       
+         
+           ]       
+                
+}

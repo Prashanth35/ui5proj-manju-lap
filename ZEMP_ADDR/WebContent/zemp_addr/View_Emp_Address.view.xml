@@ -1,0 +1,55 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+		controllerName="zemp_addr.View_Emp_Address" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page>
+ 		<headerContent>
+ 		
+ 			 <Title text="Hello"/>
+ 			 <Button text="Edit" type="Accept" icon="sap://"/>
+ 		</headerContent>
+ 		<content>
+ 		<f:SimpleForm>
+ 			<Label text="Employee Name"/>
+ 			<Input type="text"/>
+ 			<Label text="Department"/>
+ 			<ComboBox>
+ 				<items>
+ 					<core:Item text="SAP"/>
+ 					<core:Item text="Java"/>
+ 					<core:Item text="Oracle"/>
+ 				</items>
+ 			</ComboBox>
+ 			<Label text="Role"/>
+ 			<ComboBox>
+ 				<items>
+ 					<core:Item text="Manager"/>
+ 					<core:Item text="Director"/>
+ 					<core:Item text="Engineer"/>
+ 				</items>
+ 			</ComboBox>
+ 			<Label text="Email:"/>
+ 			<Input type="text"/>
+ 			<Label text="PAN"/>
+ 			<Input type="text"/>
+ 			<Label text="Country"/>
+ 			<ComboBox>
+ 				<items>
+ 					<core:Item text="India"/>
+ 					<core:Item text="Paris"/>
+ 					<core:Item text="Pinland"/>
+ 				</items>
+ 			</ComboBox>
+ 			<Label text="Zip code:"/>
+ 			<Input type="number"/>
+ 			<Label />
+ 			<Button text="Submit"/>
+ 		</f:SimpleForm>
+ 		</content>
+ 		<footer>
+			<Bar>
+				<contentMiddle>
+					<Text text="This is footer text"/>
+				</contentMiddle>
+			</Bar>
+		</footer>
+	</Page>
+</core:View>

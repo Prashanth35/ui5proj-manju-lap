@@ -1,0 +1,48 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sf="sap.ui.layout.form"
+		controllerName="zsapxml_emp_reg.Reg_form" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="EMPLOYEE REGISTRATION FORM">
+		<content>
+			<sf:SimpleForm>
+				<sf:title>
+					<core:Title text="Please enter employee details"/>
+				</sf:title>
+				<sf:content>
+					<Label text="Employee Name:"/>
+					<Input type="text"/>
+					<Label text="Department"/>
+					<ComboBox>
+						<items>
+			 				<core:Item text="Java"/>
+			 				<core:Item text="Oracle"/>
+							 <core:Item text="SAP"/>
+						</items>
+					</ComboBox>
+					<Label text="Role"/>
+					<ComboBox>
+						<items>
+							<core:Item text="Developer"/>
+							<core:Item text="Manager"/>
+							<core:Item text="Project Manager"/>
+						</items>
+					</ComboBox>
+					<Label text="Email ID"/>
+					<Input type="text"/>
+					<Label text="PAN Number"/>
+					<Input type="text"/>
+					<Label text="Country"/>
+					<ComboBox>
+						<items>
+							<core:Item text="India"/>
+							<core:Item text="Paris"/>
+							<core:Item text="Russia"/>
+						</items>
+					</ComboBox>
+					<Label text="ZIP code"/>
+					<Input type="text"/>
+					
+					<Button text="Submit"/>
+			</sf:content>
+		</sf:SimpleForm>
+	</content>
+	</Page>
+</core:View>

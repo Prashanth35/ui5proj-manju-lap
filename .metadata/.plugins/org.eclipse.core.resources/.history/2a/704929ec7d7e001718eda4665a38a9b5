@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="complexbindin2.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<List items="{/oreders}">
+		<items>
+		<StandardListItem title="{month} {date}"
+		description="rs.{amount}" info="{status}"
+		infostate="{=${satatus} === 'Paid' ?'success' : 'error'}" />
+	</items>
+	</List>
+		</content>
+	</Page>
+</core:View>

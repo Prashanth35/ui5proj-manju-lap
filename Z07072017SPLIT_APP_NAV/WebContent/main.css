@@ -1,0 +1,46 @@
+.btn, .sapMBtn{
+	
+	color:#e6318d;
+	margin-top:100px;
+	
+}
+.custom .sapMNavItem{
+	
+
+	
+	border-botom:3px solid green;
+	
+} 
+.custom .sapMBtnContent{
+	
+		background-color:#33Ff66;
+	
+}
+.standardclr .sapMSLITitleOnly{
+	
+	color:#33Ff66;
+	
+	
+}
+.pg .sapMBar{
+	
+	
+}
+.pg .sapMPageHeader {
+	
+	background-color:#33Ff66;
+	
+}
+.sapMHeader .pg{
+	
+		
+}
+.leftpart {
+	
+	background-color:#33Ff66;
+	
+}
+.detail .element.style {
+	
+	background-color:#33Ff66;
+}

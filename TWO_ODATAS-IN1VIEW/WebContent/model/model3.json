@@ -1,0 +1,23 @@
+{
+"data3" : [
+         {
+         "Name1" : "Govardan bhai2",
+          "id1"   :"404",
+            "Designation1" : "detective Agent"
+            },
+             {
+         "Name1" : "Athma",
+          "id1"   :"401",
+            "Designation1" : "hacker"
+            },
+            
+             {
+         "Name1" : "Dhevender",
+          "id1"   :"UI5",
+            "Designation1" : "command manager"
+            }
+            
+
+]
+
+}

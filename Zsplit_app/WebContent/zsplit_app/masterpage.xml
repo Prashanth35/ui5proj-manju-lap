@@ -1,0 +1,11 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zsplit_app.spitapp" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<List headetText="Customer" items="{Customers}">
+				<StandardListItem title="{ContactName}" press="press"/>
+				
+			</List>
+		</content>
+	</Page>
+</core:View>

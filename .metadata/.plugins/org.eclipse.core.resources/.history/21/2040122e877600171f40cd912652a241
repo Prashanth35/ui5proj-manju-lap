@@ -1,0 +1,32 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="p-project1.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="APPLICATION">
+		<content>
+			<SplitApp>
+				<masterPages>
+				<Panel expandable="true" expanded="false" headerText="CONTENT">
+				
+				
+					<List>
+					<items>
+					
+				<StandardListItem title="HTML5"/>
+				</Panel>
+				<StandardListItem title="CSS"/>
+				<StandardListItem title="JAVASCRIPT"/>
+			
+				</items>
+				</List>
+				
+			
+				</Panel>
+				</masterPages>
+			<detailPages>
+			</detailPages>
+			
+			
+			</SplitApp> 
+	
+		</content>
+	</Page>
+</core:View>

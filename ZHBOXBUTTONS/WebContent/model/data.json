@@ -1,0 +1,33 @@
+{
+ "btnTxtCollections" : [
+ 							{ 
+ 								"text" : "sap ",
+ 							 	 "name" : "Manju"
+ 							},
+ 							  
+ 							{ 
+ 								"text" : "oracle ",
+ 							  	"name" : "Manju"
+ 							 },
+ 							  
+ 							{ 
+ 								"text" : "Java ",
+ 							  	"name" : "Manju"
+ 							},
+ 							  
+ 							{ 
+ 								"text" : "MYSQL ",
+ 							  	"name" : "Manju"
+ 							},
+ 							  
+ 							{ 
+ 								"text" : "PHP ",
+ 							  	"name" : "Manju"
+ 							},
+ 							  
+ 							{ 
+ 								"text" : "ODATA ",
+ 							 	 "name" : "Manju"
+ 							}
+ 						]
+}

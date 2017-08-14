@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="p-project1.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="APPLICATION">
+		<content>
+			<SplitApp>
+				<masterPages>
+				<StandardListItem></StandardListItem>
+				</masterPages>
+			<detailPages>
+			</detailPages>
+			
+			
+			</SplitApp> 
+	
+		</content>
+	</Page>
+</core:View>

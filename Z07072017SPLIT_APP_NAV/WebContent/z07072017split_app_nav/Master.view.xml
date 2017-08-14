@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z07072017split_app_nav.Master" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="info" class="pg leftpart">
+		<content>
+			<List>
+				<items>
+					<StandardListItem title="Registration" type="Navigation" press="Registration" class="standardclr" />
+					<StandardListItem title="WorkExp" type="Navigation" press="WorkExp" />
+					<StandardListItem title="Registration" />
+					<StandardListItem title="Registration" />
+				</items>
+	</List>
+		</content>
+	</Page>
+</core:View>

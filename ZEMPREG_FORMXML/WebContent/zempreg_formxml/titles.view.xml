@@ -1,0 +1,9 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zempreg_formxml.titles" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Title text="Employee Registration Form"/>
+			<Button type="Accept" text="Register"/>
+		</content>
+	</Page>
+</core:View>

@@ -1,0 +1,20 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="two_odatas-in1view.view1" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:F="sap.ui.layout.form">
+	<Page title="Title">
+		<content>
+		<F:SimpleForm id="idsmplfrm">
+		<F:content>
+		<Label text="Name"/>
+		<Input />
+		<Label text="Id"/>
+		<Input />
+		<Label text="Designation"/>
+		<Input  value="{Name}"/>
+		
+		</F:content>
+		</F:SimpleForm>
+	
+		</content>
+	</Page>
+</core:View>

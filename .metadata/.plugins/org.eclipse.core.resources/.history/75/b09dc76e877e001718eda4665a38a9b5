@@ -1,0 +1,39 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="complexbinding.complexview" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:F="sap.ui.layout.form"
+		>
+	<Page title="Title">
+		<content>
+	<!-- <F:SimpleForm id="idsimpleform">
+	<F:content>
+	<Label text="Name"/>
+	<Input value="{Name}"/>
+	<Label text="Id"/>
+	<Input value="{Id}"/>
+	<Label text="Designation"/>
+	<Input value="{DEsignation}"/>
+	<Label text="Dept"/>
+	<Input value="{Dept}"/>
+	
+	</F:content>
+	
+	
+	</F:SimpleForm> --> 
+	<!-- <Button text="{/text1}  {/text2}"/>
+	<Button text="{'paths' :['{/text1}','{/text2}']}"/> -->
+	<Table id="IDtable" items="/Payments">
+	<columns>
+	<Column>
+	<Text text="month"/>
+	</Column>
+	<Column>
+	<Text text="amount"/>
+	</Column>
+	<Column>
+	<Text text="status"/>
+	</Column>
+	</columns>
+	</Table>
+		</content>
+	</Page>
+</core:View>

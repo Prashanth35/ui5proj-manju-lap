@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				sap.ui.localResources("multipledatain1view");
+				var app = new sap.m.App({initialPage:"idVIEW11"});
+				var page = sap.ui.view({id:"idVIEW11", viewName:"multipledatain1view.VIEW1", type:sap.ui.core.mvc.ViewType.XML});
+				data-sap-ui-libs="sap.ui.commons,sap.m,sap.ui.core,sap.ui.ux3,sap.ui.comp,sap.ca.ui,sap.suite.ui.commons"
+				app.addPage(page);
+				app.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

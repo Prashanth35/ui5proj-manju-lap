@@ -1,0 +1,16 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z04072017_std_list_items.Std_List_view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<List>				
+				<items>
+					<StandardListItem title="Name" />
+					<StandardListItem title="Name" />
+					<StandardListItem title="Name" />
+					<StandardListItem title="Name" />
+					<StandardListItem title="Name" />
+				</items>
+			</List>
+		</content>
+	</Page>
+</core:View>

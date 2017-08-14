@@ -1,0 +1,60 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zjsonbindingcontrollevel.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Table id="idTable2" items="{/products}" > <!--  <Table id="idTable" items="{path:'/data/products'}" -->
+				<columns>
+				
+					<Column>
+					<header>
+						<Text text="Name"/>
+					</header>
+					</Column>
+				
+				
+				
+					<Column>
+					<header>
+						<Text text="Unit Price"/>
+					</header>
+					</Column>
+				
+				
+					<Column>
+						<header>
+						<Text text="Quantity"/>
+					</header>
+					</Column>
+				
+				
+					<Column>
+					<header>
+						<Text text="Total Price"/>
+					</header>
+					</Column>
+				
+				
+					<Column>
+					<header>
+						<Text text="Increment Quantity"/>
+					</header>
+					</Column>
+				
+				</columns>
+				
+				
+				<items>
+				<!-- <ColumnListItem>
+					<cells>
+						<Text text="{Name}"/>
+						<Text text="{Unit_Price}"/>
+						<Text text="{Quantity}"/>
+						<Text text=""/>
+						<Button text="{Increment_Quantity}" />
+					</cells>
+				</ColumnListItem> -->
+				</items>
+			</Table>
+		</content>
+	</Page>
+</core:View>

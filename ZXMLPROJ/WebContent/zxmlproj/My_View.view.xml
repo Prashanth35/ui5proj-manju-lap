@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zxmlproj.My_View" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Input value="Manjunath" width="50%"/>
+			<Label> Gender</Label>
+			<Label> Male</Label>
+			<Input type="checkbox" name="male"/>
+			<Label> FeMale</Label>
+			<Input type="checkbox" name="female"/>
+			 
+			<Button text="Save" width="50%"/>
+		</content>
+	</Page>
+</core:View>

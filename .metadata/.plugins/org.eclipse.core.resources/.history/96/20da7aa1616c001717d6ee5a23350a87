@@ -1,0 +1,56 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z_odata_filters.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Filter Table Data">
+		<content>
+			<Table items="{/Customers}" id="idTable">
+				<columns>
+					<Column>
+						<Text text="Customer ID"/>
+						
+					</Column>
+					<Column>
+						<Text text="Company Name"/>
+						
+					</Column>
+					<Column>
+						<Text text="Contact Name"/>
+						
+					</Column>
+					<Column>
+						<Text text="Contact title"/>
+						
+					</Column>
+					<Column>
+						<Text text="Country"/>
+						
+					</Column>
+					
+					
+				</columns>
+				<headerToolbar>
+					<Toolbar>
+						<content>
+							<SearchField id="idSerach" search="onSearch"/>
+							<ComboBox items="{/Customers}">
+								<core:Item text="{Country}"/>
+							</ComboBox>
+						</content>
+					</Toolbar>
+				</headerToolbar>
+				
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{CustomerID}"/>
+							<Text text="{CompanyName}"/>
+							<Text text= "{ContactName}"/>
+							<Text text="{ContactTitle}"/>
+							<Text text="{Country}"/>
+							
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>	
+		</content>
+	</Page>
+</core:View>

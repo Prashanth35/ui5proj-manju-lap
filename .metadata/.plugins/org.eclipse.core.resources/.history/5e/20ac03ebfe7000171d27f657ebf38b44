@@ -1,0 +1,38 @@
+sap.ui.core.UIComponent.extend("smax.route.Component", 
+		{
+									metadata :
+									{ 
+										rootView :"view.App",
+										config:{
+													viewType="XML",
+													routerClass : "sap.m.routing.Router"
+												},
+										routs:[
+										        {
+										        	pattern :"pageone",
+										        	viewName:"view.Page1"
+										        	
+										        },
+										        {
+										        	pattern :"pagetwo",
+										        	viewName:"view.Page2"
+										        },
+										        {
+										        	pattern :"pagethree",
+										        	viewName:"view.Page3",
+										        	//viewType : ""
+										        }
+										       
+										       ]
+									}
+},
+init : function()
+{
+// initialise the router
+	sap.ui.core.UIComponent.prototype.init.apply(this);
+	var oRouter=this.getRouter().initialize();
+	
+}
+
+
+});

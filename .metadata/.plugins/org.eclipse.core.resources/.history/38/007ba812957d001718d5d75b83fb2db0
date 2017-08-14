@@ -1,0 +1,24 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="complexbinding.complexview" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:F="sap.ui.layout.form"
+		>
+	<Page title="Title">
+		<content>
+	<F:SimpleForem>
+	<F:content>
+	<Label text="Name"/>
+	<Input value=""/>
+	<Label text="Id"/>
+	<Input value=""/>
+	<Label text="Designation"/>
+	<Input value=""/>
+	<Label text="gender"/>
+	<Input value=""/>
+	
+	</F:content>
+	
+	
+	</F:SimpleForem>
+		</content>
+	</Page>
+</core:View>

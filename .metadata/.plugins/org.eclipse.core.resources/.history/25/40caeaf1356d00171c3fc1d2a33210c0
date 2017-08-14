@@ -1,0 +1,33 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zodata_table.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Table items="{/Customers}">
+				<columns>
+					<Column>
+						<Text text="CustomerID"/>
+					</Column>
+					<Column>
+						<Text text="Company Name"/>
+					</Column>
+					<Column>
+						<Text text="Contact Name"/>
+					</Column>
+					<Column>
+						<Text text="Contact Title"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{CustomerID}"/>
+							<Text text="{CompanyName}"/>
+							<Text text="{ContactName}"/>
+							<Text text="{ContactTitle}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</core:View>

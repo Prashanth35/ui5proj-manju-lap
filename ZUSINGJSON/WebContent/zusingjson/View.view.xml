@@ -1,0 +1,27 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zusingjson.View" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content><!--  Binding is at parent level -->
+			<ComboBox id="idCombo" change="dept">
+				<items> 
+							<core:Item text="{/deptCollection/0/dept}"/>
+							<core:Item text="{/deptCollection/1/dept}"/>
+							<core:Item text="{/deptCollection/2/dept}"/>
+							<core:Item text="{/deptCollection/3/dept}"/>
+							<core:Item text="{/deptCollection/4/dept}"/>
+							<core:Item text="{/deptCollection/5/dept}"/>
+				</items> 
+			</ComboBox>
+			<!-- 
+					Mapping (Binding) at items level   
+					<ComboBox id="idCombo" items="{/deptCollections}">
+						<items> 
+							<core:Item text="{/dept}"/>
+						</items>
+					</ComboBox>
+			 
+			 -->
+			
+		</content>
+	</Page>
+</core:View>

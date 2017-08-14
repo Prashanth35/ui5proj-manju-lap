@@ -1,0 +1,11 @@
+{
+"deptCollection" : [
+ 						{	 "dept" : "SAP"		},
+ 						{	 "dept" : "JAVA"	},
+ 						{	 "dept" : ".NET"	},
+ 						{ 	 "dept" : "ORACLE"	},
+ 						{ 	 "dept" : "RUBY"	},
+ 						{ 	 "dept" : "PHP"		},
+ 						{ 	 "dept" : "MYSQL"	}
+ 				   ]
+}

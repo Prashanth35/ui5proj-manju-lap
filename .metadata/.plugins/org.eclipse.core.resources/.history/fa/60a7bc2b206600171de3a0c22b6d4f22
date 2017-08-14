@@ -1,0 +1,20 @@
+{
+	"employeeCollection" : 
+	[
+	 {
+	  "name" : "Manjunath",
+	  "role" : "Trainee",
+	  "dept" : "SAP"
+	 },
+	 {
+	  "name" : "Vishvanath",
+	  "role" : "Admin",
+	  "dept" : "JAVA"
+	 },
+	 {
+	  "name" : "Badrinath",
+	  "role" : "Trainee",
+	  "dept" : "Oracle"
+	 }
+	]
+}

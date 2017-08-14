@@ -1,0 +1,17 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="p-project1.VIEW1" xmlns:html="http://www.w3.org/1999/xhtml">
+	
+			<SplitApp id="iSplitApp">
+				<masterPages>
+					<mvc:XMLView viewName="p-project1.ListPage" id="idListPage"/>
+			</masterPages>
+			<detailPages id="id1">
+				<mvc:XMLView viewName="p-project1.HtmlPage" id="idHTMLPage"/>
+				<mvc:XMLView viewName="p-project1.HTMLInterViewPage" id="idHTMLInterViewPage"/>
+			</detailPages>
+			
+					
+			</SplitApp> 
+	
+		
+</core:View>

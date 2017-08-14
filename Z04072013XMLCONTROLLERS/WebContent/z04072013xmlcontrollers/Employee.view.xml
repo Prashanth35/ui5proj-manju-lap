@@ -1,0 +1,20 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z04072013xmlcontrollers.Employee" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Label text="EMPLOYEE NAME"/>
+			<Text text="Manjunath"/>
+			<Label text="devender"/>
+			<Input value="SAPUI5"/>
+			<Label text="Role"/>
+			 
+			<Combobox> 
+				<items>
+					<core:Item text="Developer"/>
+					<core:Item text="Manager"/>
+					<core:Item text="Project Manager"/>
+				</items>
+			</Combobox>			
+		</content>
+	</Page>
+</core:View>

@@ -1,0 +1,12 @@
+{
+    "Payments" : [  
+                   
+             
+                { "month" : "jan","amount" : "1200","status" : "paid"  },
+                { "month" : "feb","amount" : "1500","status" : "paid"  },
+                { "month" : "march","amount" : "1600","status" : "paid"  }
+                       
+         
+           ]       
+                
+}

@@ -1,0 +1,34 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="two_odatas-in1view.view1" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:F="sap.ui.layout.form">
+	<Page title="multiple datas show in one view">
+		<content>
+		<F:SimpleForm id="idsmplfrm">
+		<F:content>
+		<Label text="Name"/>
+		<Input value="{Name}"/>
+		<Label text="Id"/>
+		<Input value="{id}"/>
+		<Label text="Designation"/>
+		<Input  value="{Designation} {dept}" />
+		
+		<Label text="Name2"/>
+		<Input value="{M2>Name1}"/>
+		<Label text="Id2"/>
+		<Input value="{M2>id1}"/>
+		<Label text="Designation2"/>
+		<Input  value="{M2>Designation1}"/>
+		
+		<Label text="Name2"/>
+		<Input value="{M3>Name1}"/>
+		<Label text="Id2"/>
+		<Input value="{M3>id1}"/>
+		<Label text="Designation2"/>
+		<Input  value="{M3>Designation1}"/>
+		
+		</F:content>
+		</F:SimpleForm>
+	
+		</content>
+	</Page>
+</core:View>

@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="pen-proj_tablewithbredcrumb.months" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	      <Table>
+	      <columns>
+	      <Column>
+	      <Text text="Months"/>
+	      </Column>
+	      
+	      </columns>
+	      </Table>
+		</content>
+	</Page>
+</core:View>

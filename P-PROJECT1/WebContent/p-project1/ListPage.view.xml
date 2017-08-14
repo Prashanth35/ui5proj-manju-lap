@@ -1,0 +1,54 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="p-project1.ListPage" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+				<Panel expandable="true" expanded="false" headerText="CONTENT">
+				
+				
+					<List>
+					<items>
+					
+			<CustomListItem>
+			
+			<Panel expandable="true" expanded="false" headerText="HTML5">
+			<List type="Active">
+			<items>	
+			<StandardListItem title="introduction" press="press" type="Active"/>
+			<StandardListItem title="intrvw.quations" press="press2" type="Active"/>
+			<StandardListItem title="new elements"/>
+			<StandardListItem title="symantic elements"/>
+			</items>
+			</List>
+			</Panel>
+			</CustomListItem>
+			
+				<CustomListItem type="Navigate">
+	
+			<Panel expandable="true" expanded="false" headerText="CSS">
+			
+			<StandardListItem title="introduction" press="int" />
+			<StandardListItem title="intrvw.quations"/>
+			<StandardListItem title="new elements"/>
+			<StandardListItem title="symantic elements"/>
+			
+			</Panel>
+			</CustomListItem>
+			<CustomListItem>
+				<Panel expandable="true" expanded="false" headerText="javascript">
+				
+			<StandardListItem title="introduction"/>
+			<StandardListItem title="intrvw.quations"/>
+			<StandardListItem title="new elements"/>
+			<StandardListItem title="symantic elements"/>
+			
+			</Panel>
+			</CustomListItem>
+				</items>
+				</List>
+				
+			
+				</Panel>
+	
+		</content>
+	</Page>
+</core:View>

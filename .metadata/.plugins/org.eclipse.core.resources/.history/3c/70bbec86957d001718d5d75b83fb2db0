@@ -1,0 +1,27 @@
+{
+"Employes" : [
+         {
+         "Name" : "ravi",
+          "Id"   :"679",
+            "Designation" : "detective Agent",
+            "Dept" : "Developer"
+            
+            },
+             {
+         "Name" : "shiva",
+          "Id"   :"902",
+            "Designation" : "hacker",
+            "Dept" : "Developer"
+            },
+            
+             {
+         "Name" : "srinu",
+          "Id"   :"930",
+            "Designation" : "command manager",
+            "Dept" : "Developer"
+            }
+            
+
+]
+
+}

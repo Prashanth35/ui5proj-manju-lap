@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+		
+       function hBox()
+       {		
+    	   var oBtn1=new sap.m.Button({text:"1"});
+    	   var oBtn2=new sap.m.Button({text:"2"});
+    	   var oBtn3=new sap.m.Button({text:"3"});
+
+    	   		/*for(var i=0;i<4;i++)
+    	   			{
+    	   				oBtn[i]=new sap.m.Button(text:i)
+    	   			}    */	       
+			var oHBox=new sap.m.HBox({
+			 	//alignItems:sap.m.FlexAlignItems.Center,
+				items: [
+						oBtn1,oBtn2,oBtn3
+			 	       ]
+			});
+			return oHBox;
+       }
+       
+       function vBox()
+       {
+       		var oVBox= new sap.m.VBox({
+			alignItems:sap.m.FlexAlignItems.Center,
+			items: [
+			        hBox(),
+			        hBox(),
+			        hBox()
+			       ]
+		});
+       		oVBox.placeAt("content");
+       	
+       }
+       
+       vBox();
+       		
+			
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+		controllerName="zodata_table.view" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Table items="{/Customers}" growingThreshold ="5" growing ='true'>
+				<columns>
+					<Column>
+						<Text text="CustomerID"/>
+					</Column>
+					<Column>
+						<Text text="Company Name"/>
+					</Column>
+					<Column>
+						<Text text="Contact Name"/>
+					</Column>
+					<Column>
+						<Text text="Contact Title"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<Text text="{CustomerID}"/>
+							<Text text="{CompanyName}"/>
+							<Text text="{ContactName}"/>
+							<Text text="{ContactTitle}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+			<f:SimpleForm>
+				<f:content>
+					<Label text="CustomerID"/>
+					<Text text="{CustomerID}"/>
+					<Label text="CompanyName"/>
+					<Text text="{CompanyName}"/>
+					<Label text="ContactName"/>
+					<Text text="{ContactName}"/>
+					<Label text="Contact Title"/>
+					<Text text="{ContactTitle}"/>
+					
+				</f:content>
+			</f:SimpleForm>
+		</content>
+	</Page>
+</core:View>

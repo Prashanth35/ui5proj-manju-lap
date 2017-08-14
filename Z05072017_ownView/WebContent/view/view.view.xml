@@ -1,0 +1,13 @@
+<!-- Creating mvc namespace for sap.ui.mvc and making m namespace as default to the sap. -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="view.view">
+	<!--  creating Page class in the XML -->
+	<Page>
+		<!-- creating aggregationof Page class  -->
+		<content>
+		<!--  creating control to for the Button -->
+		<!--  onPress is same as onClick event of HTML -->
+			<Button text="Save" press="onPress"/>
+			
+		</content>
+	</Page>
+</mvc:View>
